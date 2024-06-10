@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex flex-col md:flex-row justify-center my-auto shadow-lg rounded-[24px] border-2 border-red-600">
+      <div
+        class="flex flex-col justify-center items-center gap-10 w-full lg:w-1/2 py-10 bg-lightRoyalBlue rounded-[24px]"
+      >
+        <h2 class="text-center text-paleBlue text-3xl font-bold">
+          Your Result
+        </h2>
+        <div
+          class="flex flex-col justify-center w-72 h-72 bg-violetBlue rounded-full"
+        >
+          <h5 class="text-7xl font-bold text-white text-center">76</h5>
+          <p class="text-center text-xl text-lightLavender">of 100</p>
+        </div>
+        <h2 class="text-3xl font-bold text-white text-center">Great</h2>
+        <p class="text-center text-2xl w-7/12 text-wrap text-lightLavender">
+          You scored higher than 65% of the people who have taken these test
+        </p>
+      </div>
+
+      <div class="flex flex-col  gap-10 py-10 px-10 w-[150%] lg:w-1/2">
+        <h2 class="text-left text-black text-3xl font-bold">Summary</h2>
+        <div class="flex flex-col gap-6">
+          <div class="flex justify-between bg-red-50 rounded-[12px] px-2 py-4 w-2/3">
+            <div class="flex gap-2">
+              <img src="assets/images/icon-reaction.svg" />
+              <p class="text-2xl text-lightRed font-bold">Reaction</p>
+            </div>
+            <div>
+              <p class="text-2xl">
+                80<span class="text-gray-400 text-2xl">/</span
+                ><span class="text-gray-400 text-2xl">100</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="flex justify-between bg-yellow-50 rounded-[12px] px-2 py-4 w-2/3">
+            <div class="flex gap-2">
+              <img src="assets/images/icon-memory.svg" />
+              <p class="text-2xl text-orangeYellow font-bold">Memory</p>
+            </div>
+            <div>
+              <p class="text-2xl">
+                92<span class="text-gray-400 text-2xl">/</span
+                ><span class="text-gray-400 text-2xl">100</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between bg-green-50 rounded-[12px] px-2 py-4 w-2/3">
+            <div class="flex gap-2">
+              <img src="assets/images/icon-verbal.svg" />
+              <p class="text-2xl text-greenTeal font-bold">Verbal</p>
+            </div>
+            <div>
+              <p class="text-2xl">
+                61<span class="text-gray-400 text-2xl">/</span
+                ><span class="text-gray-400 text-2xl">100</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between bg-blue-50 px-2 rounded-[12px] py-4 w-2/3">
+            <div class="flex gap-2">
+              <img src="assets/images/icon-visual.svg" />
+              <p class="text-2xl text-cobaltBlue font-bold">Visual</p>
+            </div>
+            <div>
+              <p class="text-2xl">
+                72<span class="text-gray-400 text-2xl">/</span
+                ><span class="text-gray-400 text-2xl">100</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="w-2/3 text-3xl bg-darkGrayBlue active:bg-lightRoyalBlue rounded-full py-4 text-white">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
